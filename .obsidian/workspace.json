@@ -11,10 +11,14 @@
             "id": "79092aed8f448fbf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "py109_study_guide/type_coercions.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "type_coercions"
             }
           }
         ]
@@ -171,8 +175,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "52fe83ed2d172f55",
+  "active": "79092aed8f448fbf",
   "lastOpenFiles": [
+    "py109_study_guide/type_coercions.md",
     "Test Note.md",
     "2026-04-22.md",
     "py109_study_guide/naming_conventions.md",
