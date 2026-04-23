@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9f516de28df14f72",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.12.7"
-            }
-          },
-          {
             "id": "79092aed8f448fbf",
             "type": "leaf",
             "state": {
@@ -33,8 +21,7 @@
               "title": "Test Note"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
