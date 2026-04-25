@@ -1,0 +1,1 @@
+F-strings are a way of creating string objects by passing values into placeholders. The method Python uses to pass variable values into placeholders is called string interpolation. Whatever value that is assigned to a variable, can be passed into the f-string directly. It makes creating long strings a lot simpler and the code easier to read/maintain. 
