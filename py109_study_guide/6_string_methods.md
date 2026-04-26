@@ -147,3 +147,22 @@ print(my_str.split()) # prints ['let', 'sleeping', 'dogs', 'lie']
 csv_str = 'first_name,last_name,dob'
 print(csv_str.split(',')) # prints ['first_name', 'last_name', 'dob']
 ```
+
+
+#### find
+The `find` method takes a sub-string as an argument, then it searches for the first appearance of that sub-string and returns the first index where it is found. 
+```python
+my_str = "The apple doesn't fall far from the tree."
+
+print(my_str.find("app")) # 5
+```
+
+
+
+#### rfind
+The `rfind` method takes a sub-string as an argument, then it searches from the end to the beginning to find the first index where the sub-string is found. 
+```python
+my_str = "The apple doesn't fall far from the tree."
+
+print(my_str.rfind("fa")) # prints 23
+```
