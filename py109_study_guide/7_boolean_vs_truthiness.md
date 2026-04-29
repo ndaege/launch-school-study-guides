@@ -14,7 +14,24 @@ Some examples of 'falsy' values are:
 
 Here are some code examples:
 ```python
-my_str = ' '
-num = 3
-my_list = [None]
+my_str = ' ' # truthy
+num = 3 # truthy
+my_list = [1, 2, 3] # truthy
+
+empty_str = '' # falsy
+empty_list = [] # falsy
+zero = 0 # falsy
+
+falsy_list = [empty_str, empty_list, zero] # truthy
+truthy_list = [my_str, num, my_list] # truthy
+
+if falsy_list: # evaluates to True
+  print("The list is truthy") # this prints because the list isn't empty, despite the list elements all containing falsy values. 
+else:
+  print("The list is falsy")
+  
+if truthy_list: # evaluates to True
+  print("The list is truthy") # same as line 13, this list is non-empty, so this line prints
+else:
+  print("The list is falsty")
 ```

@@ -1,0 +1,1 @@
+`None` is the lone representative of the `NoneType` class. It represents the absence of value. It is used as the default return for many functions or methods that mutate objects. 
