@@ -52,7 +52,37 @@ my_list = list(range(1, 11))
 evens = my_list[1::2]
 print(evens) # prints [2, 4, 6, 8, 10]
 ```
-
 ### ----------------------------------------------------
 
 ### Dictionary Syntax
+#### Key-based Access
+Dictionaries are collections of key-value pairs. In order to access the values of a dictionary, the dictionary key, that corresponds to the value is used. 
+```python
+my_dict = {'a': 3, 'b': 2, 'c': 1}
+
+print(my_dict['a']) # key-based access, prints 3
+```
+
+
+#### KeyError
+When accessing dictionaries, one must be careful when using key-based access. If the key is not in the dictionary, it will result in a `KeyError`. 
+```python
+my_dict = {'a': 3, 'b': 2, 'c': 1}
+
+print(my_dict['d']) # result in KeyError, 'd' key not in my_dict
+```
+
+#### Avoiding KeyError
+To avoid the `KeyError`, one can either use the `in` membership operator or the `get()` method. Below are examples of how they work: 
+```python
+my_dict = {'a': 3, 'b': 2, 'c': 1}
+
+# membership
+if 'd' in my_dict:
+	print("yes")
+else:
+    print("no")
+    
+# get method
+print(my_dict.get('d', 'Key not found'))
+```
