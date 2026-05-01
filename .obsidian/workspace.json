@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "12_dictionary_methods"
             }
+          },
+          {
+            "id": "5d8ee3e2e1ceed7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "py109_study_guide/13_slicing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "13_slicing"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -246,10 +260,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a397bae9e881ea3",
+  "active": "5d8ee3e2e1ceed7d",
   "lastOpenFiles": [
-    "py109_study_guide/11_list_methods.md",
     "py109_study_guide/12_dictionary_methods.md",
+    "py109_study_guide/13_slicing.md",
+    "py109_study_guide/11_list_methods.md",
     "py109_study_guide/10_list_and_dictionary_syntax.md",
     "py109_study_guide/9_ranges.md",
     "py109_study_guide/8_none.md",
@@ -276,7 +291,6 @@
     "Complete AI & Machine Learning, Data Science Bootcamp/Section 3. Machine Learning and Data Science Framework.md",
     "Complete AI & Machine Learning, Data Science Bootcamp/Section 9. Scikit-learn - Creating Machine Learning Models.md",
     "Complete AI & Machine Learning, Data Science Bootcamp/Section 8. Matplotlib - Plotting and Data Visualization.md",
-    "Complete AI & Machine Learning, Data Science Bootcamp/Section 7. Numpy.md",
     "WGU Capstone",
     "Complete AI & Machine Learning, Data Science Bootcamp/imgs/matplotlib-anatomy-of-a-plot-with-code.png",
     "Complete AI & Machine Learning, Data Science Bootcamp/imgs/matplotlib-anatomy-of-a-plot.png",
