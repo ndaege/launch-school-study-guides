@@ -123,8 +123,8 @@ if my_var1 >= my_var2:
 
 
 ### Logical
-### `and`
-The `and` operator compares the truthiness of the left operand, and the truthiness of the right operand. The comparison will evaluate to `False` in all instances except one, and that is only if both operands are 'truthy.' 
+#### `and`
+The `and` operator compares the truthiness of the left and operands. The comparison will evaluate to `False` in all instances except one, and that is only if both operands are 'truthy.' 
 ```python
 # 1 is truthy
 # 0 is falsy
@@ -146,5 +146,57 @@ if True and 1: # only two truthy values = True
 ```
 
 
+#### `or` 
+The `or` operator compares the truthiness value of the left and right operands. The comparison will evaluate to `True` in most instances, but one. That occurs when both operands are 'falsy'. Put simply, at least one operand must be 'truthy' for the comparison to evaluate to `True`.
+```python
+if [] or 1: # right operand is truthy, so the comparison evaluates to True
+	print("True")
+
+if True or 7: # both operands are truthy, so the comparison evaluates to True
+	print("True")
+	
+if [] or 0: # both operands are falsy, so the comparison evaluates to False
+	print("False")
+```
 
 
+#### `not`
+The `not` operator flips the truthiness value of whatever comes right after.
+```python
+print(not True) # False
+
+print(not False) # True
+```
+
+
+### Identity
+#### `is`
+The `is` operator checks to see if two objects are the same. Even if the values of one object are the same as another, that does not necessarily mean that they are the same object. Returns `True` only if the objects are the same. 
+```python
+my_list1 = [1, 2, 3]
+my_list2 = my_list1
+
+my_nested1 = [[1, 2], [3, 4]]
+my_nested2 = [[1, 2], [3, 4]]
+
+print(my_list1 is my_list2) # prints True
+print(my_nested1 is my_nested2) # prints False
+```
+
+
+#### `is not`
+The `is not` operator checks to see of two objects are are different. If they are, then `True` is returned. `False`, otherwise. 
+```python
+my_list1 = [1, 2, 3]
+my_list2 = my_list1
+
+my_nested1 = [[1, 2], [3, 4]]
+my_nested2 = [[1, 2], [3, 4]]
+
+print(my_list1 is not my_list2) # prints False
+print(my_nested1 is not my_nested2) # prints True
+```
+
+
+#### Operator precedence
+Operator precedence determines the evaluation order of expressions. Some operators have higher precedence and are preferred for evaluation before others, or they are said to bind more tightly to its operands. Precedence and evaluation order starts from left to right. However, with so many operators and precedence rules, it is preferred to use parentheses to show intent. This helps make longer and more complex expressions more readable. 
