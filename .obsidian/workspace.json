@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "19_the_len()_function"
             }
+          },
+          {
+            "id": "5f8c10170ef3d0b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "py109_study_guide/20_print_and_input.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20_print_and_input"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -204,10 +218,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "071d65f08d7a9a4e",
+  "active": "5f8c10170ef3d0b4",
   "lastOpenFiles": [
-    "py109_study_guide/18_conditionals_and_loops.md",
     "py109_study_guide/19_the_len()_function.md",
+    "py109_study_guide/20_print_and_input.md",
+    "py109_study_guide/18_conditionals_and_loops.md",
     "py109_study_guide/17_variables.md",
     "py109_study_guide/16_pass_by_object_reference.md",
     "py109_study_guide/6_string_methods.md",
@@ -234,7 +249,6 @@
     "Launch School/PY100 - PY101 Functions to Remember.md",
     "Language.md",
     "Launch School/PY101 - PY109",
-    "Apple.md",
     "WGU Capstone",
     "Complete AI & Machine Learning, Data Science Bootcamp/imgs/matplotlib-anatomy-of-a-plot-with-code.png",
     "Complete AI & Machine Learning, Data Science Bootcamp/imgs/matplotlib-anatomy-of-a-plot.png",
